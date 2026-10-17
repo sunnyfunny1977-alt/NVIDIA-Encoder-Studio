@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Lokale Werkzeuge und Einstellungen
+.claude/
+.vscode/
+.idea/
+
+# Ältere PowerShell-Varianten bleiben lokal
+*.ps1
+
+# Videodateien
+*.mkv
+*.mp4
