@@ -4,6 +4,20 @@ Moderne Windows-Oberfläche zum Encodieren von **MKV- und MP4-Dateien nach AV1 o
 
 ![Screenshot von NVIDIA Encoder Studio](docs/screenshot.png)
 
+## Für wen ist die App?
+
+Für alle, die **keine Lust haben, sich mit zig ffmpeg-Optionen und Encoder-Einstellungen auseinanderzusetzen**.
+
+Typisches Beispiel: Vor dem Urlaub soll das **Tablet mit Filmen und Serien betankt** werden – aber der Speicher ist knapp. Dateien ins Fenster ziehen, Zielauflösung wählen, auf **„Encoding starten“** klicken, fertig. Die Standardeinstellungen liefern ohne weiteres Nachdenken gute Ergebnisse, und die Dateien werden dabei meist um ein Vielfaches kleiner. Wer mag, findet trotzdem Qualitätsprofile, HDR → SDR und mehr – muss sich damit aber nicht beschäftigen.
+
+**Empfehlung fürs Tablet:**
+
+- **Zielauflösung 720p** – auf einem Tablet-Display kaum von 1080p zu unterscheiden, spart aber viel Platz
+- **AV1** für die kleinsten Dateien – **ältere Tablets können AV1 aber oft nicht flüssig abspielen, dann HEVC wählen**
+- **Mehrkanal-Ton → Stereo** – Tablet-Lautsprecher und Kopfhörer sind ohnehin Stereo
+- **HDR → SDR**, wenn das Tablet kein HDR-Display hat – sonst wirken HDR-Filme blass
+- Unsicher? Erst mit dem **Sample-Modus** 30 Sekunden encodieren und auf dem Tablet ausprobieren
+
 ## Funktionen
 
 - **AV1 oder HEVC** per NVENC (`av1_nvenc` / `hevc_nvenc`) auf der Grafikkarte
